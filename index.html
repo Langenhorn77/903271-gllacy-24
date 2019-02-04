@@ -9,26 +9,26 @@
 
 <header class="header_main">
     <nav class="main_navigation">
-        <img src="img/general_images/logo_gllacy.png" width="154" height="64" alt="Логотип Gllacy">
+        <img src="img/general_images/logo_gllacy.svg" width="154" height="64" alt="Логотип Gllacy">
         
         <ul class="site_navigation">
             <li><a href="#">Каталог</a></li>
             <li><a href="#">Доставка и оплата</a></li>
             <li><a href="#">О Компании</a></li>
         </ul>
-    
+        
         <ul class="site_movement">
             <li>
-                <button class="btn button_search"><a href="#"><img src="img/general_images/search.png" width="17"
-                                                                   height="17" alt="Поиск"></a></button>
+                <a class="btn button_search" href="#"><img src="img/general_images/search.svg" width="17"
+                                                           height="17" alt="Поиск"></a>
             </li>
             <li>
-                <button class="btn button_login"><a href="#"><img src="img/general_images/login.png" width="21"
-                                                                  height="19" alt="вход">Вход</a></button>
+                <a class="btn button_login" href="#"><img src="img/general_images/login.svg" width="21"
+                                                          height="19" alt="вход">Вход</a>
             </li>
             <li>
-                <button class="btn button_cart"><a href="#"><img src="img/general_images/cart.png" width="21"
-                                                                 height="20" alt="корзина">Пусто</a></button>
+                <a class="btn button_cart" href="#"><img src="img/general_images/basket.svg" width="21"
+                                                         height="20" alt="корзина">Пусто</a>
             </li>
         </ul>
     </nav>
@@ -41,9 +41,38 @@
 
 <main class="container">
     
-    <section class="slider"></section>
+    <h1 class="visually_hidden">Магазин мороженого Глэйси</h1>
     
-    <h1 class="visually_hidden">Магазин мороженного Глэйси</h1>
+    <section class="slider">
+    
+        <h2 class="visually_hidden">Реклама мороженого</h2>
+        
+        <div class="slider_item">
+            <p>Крем-брюле и пломбир
+                с малиновым джемом</p>
+            <img src="img/index_images/icecream_slider_1.png" height="881" width="1045" alt="Крем-брюле и пломбир
+                с малиновым джемом"/>
+            <a href="#" class="button btn_both">Давайте оба!</a>
+        </div>
+    
+    
+        <div class="slider_item">
+            <p>Шоколадный пломбир
+                и лимонный сорбет</p>
+            <img src="img/index_images/icecream_slider_2.png" height="859" width="1065" alt="Шоколадный пломбир
+                и лимонный сорбет"/>
+            <a href="#" class="button btn_both">Давайте оба!</a>
+        </div>
+    
+        <div class="slider_item">
+            <p>Пломбир с помадкой
+                и клубничный щербет</p>
+            <img src="img/index_images/icecream_slider_3.png" height="854" width="1079" alt="Пломбир с помадкой
+                и клубничный щербет"/>
+            <a href="#" class="button btn_both">Давайте оба!</a>
+        </div>
+    </section>
+    
     
     <section class="banners">
         <h2 class="visually_hidden">Специальное предложение</h2>
@@ -52,40 +81,40 @@
             <p class="for_free">Малинка даром!</p>
             <p class="for_free_desc">При покупке 2 кг любого фруктового мороженого, добавим
                 в ваш заказ банку малинового варенья бесплатно.</p>
-            <a href="#" class="button brn_order">Хочу варенье!</a>
+            <a href="#" class="button btn_order">Хочу варенье!</a>
         </div>
         
         <div class="banners_right">
             <p class="for_free">Шоколадки даром!</p>
             <p class="for_free_desc">При покупке 2 кг пломбира, добавим в ваш заказ упаковку
                 вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
-            <a href="#" class="button brn_order">Хочу шоколадки!</a>
+            <a href="#" class="button btn_order">Хочу шоколадки!</a>
         </div>
     
     </section>
     
     <section class="hits">
         <h2 class="visually_hidden">Хиты продаж</h2>
-    
+        
         <ul class="icecreame_hits">
             <li class="icecream_item">
                 <img src="img/index_images/orange.jpg" width="267" height="267" alt="Апельсиновое">
                 <p class="price">310 <sub>/кг</sub></p>
                 <h3 class="icecream_desc">Сливочное с апельсиновым джемом и цитрусовой стружкой</h3>
             </li>
-        
+            
             <li class="icecream_item">
                 <img src="img/index_images/coffee.jpg" width="267" height="267" alt="Кофейное">
                 <p class="price">380 <sub>/кг</sub></p>
                 <h3 class="icecream_desc">Сливочно-кофейное с кусочками шоколада</h3>
             </li>
-        
+            
             <li class="icecream_item">
                 <img src="img/index_images/strawberry.jpg" width="267" height="267" alt="Клубничное">
                 <p class="price">355 <sub>/кг</sub></p>
                 <h3 class="icecream_desc">Сливочно-клубничное с присыпкой из белого шоколада</h3>
             </li>
-        
+            
             <li class="icecream_item">
                 <img src="img/index_images/creme_brulee.jpg" width="267" height="267" alt="Крем-брюле">
                 <p class="price">415 <sub>/кг</sub></p>
@@ -101,14 +130,12 @@
         
         <ul class="about_us_info">
             <li>
-                <img class="icon" src="img/index_images/icecream.png" width="49" height="49" alt="ice">
                 <p>Все наше мороженое изготавливается на собственном
                     производстве, с использованием современного оборудования
                     и проверенных временем технологий.</p>
             </li>
             
             <li>
-                <img class="icon" src="img/index_images/leaf.png" width="49" height="49" alt="leaf">
                 <p>Для приготовления мороженого используются настоящие
                     сливки и молоко высочайшего качества. Все дополнительные
                     ингредиенты и добавки произведены из натурального,
@@ -116,14 +143,12 @@
             </li>
             
             <li>
-                <img class="icon" src="img/index_images/cow.png" width="49" height="49" alt="cow">
                 <p>Закупка ингредиентов производится только у проверенных
                     фермерских хозяйств и компаний, с которыми нас связывает
                     долговременное сотрудничество.</p>
             </li>
             
             <li>
-                <img class="icon" src="img/index_images/temperature.png" width="49" height="49" alt="temperature">
                 <p>Доставка нашего мороженого до заказчиков осуществляется
                     в специальном термопаке, который не дает мороженому
                     растаять в пути и позволяет сохранить превосходный вкус. </p>
@@ -137,39 +162,52 @@
         <h2 class="visually_hidden">Это интересно</h2>
         
         <article class="blog">
+            <h3 class="visually_hidden">Наш блог</h3>
             <p class="blog_news">Новое в нашем блоге</p>
-            <p class="blog_post">10 способов сервировки
+            <a href="#" class="blog_post">10 способов сервировки
                 фруктовых щербетов к
-                столу</p>
+                столу</a>
         </article>
     
-        <!-- Форма -->
+        <form class="sign_for_spam" action="https://echo.htmlacademy.ru" method="get">
+            <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе
+                всего самого вкусного, что у нас происходит. Обещаем не
+                спамить и не слать всякой ненужной ерунды. Честно =) </p>
+            <input type="email" name="e_mail" id="e_mail" placeholder="Электронная почта">
+            <button type="submit" class="button btn_submit">Отправить</button>
+        </form>
+        
     </section>
     
     <section class="contacts">
         <h2 class="visually_hidden">Контактная информация</h2>
         <img src="img/index_images/map.png" width="1200" height="430" alt="Карта проезда">
         <div class="contacts">
-            <p class=>Адрес главного офиса
+            <p>Адрес главного офиса
                 и офлайн-магазина:</p>
-            <p class="contact_info">191186, Санкт-Петербург,
-                ул. Б. Конюшенная, д. 19/8</p>
+            <address class="contact_info">191186, Санкт-Петербург,
+                ул. Б. Конюшенная, д. 19/8
+            </address>
             <p>Для заказов по телефону:</p>
             <a href="tel:88124502525" class="contact_info">8 812 450-25-25</a>
             <p>(с 10 до 20 ежедневно)</p>
-            <button class="button btn_write">Форма обратной связи</button>
+            <a href="#" class="button btn_write">Форма обратной связи</a>
         </div>
     </section>
-    
+
 </main>
 
 <footer>
     
     <ul class="social">
-        <li><a class="social_btn" href="#"><img src="img/general_images/twitter.svg" width="32" height="32" alt="Twitter"></a></li>
-        <li><a class="social_btn" href="#"><img src="img/general_images/instagram.svg" width="32" height="32" alt="Instagram"></a></li>
-        <li><a class="social_btn" href="#"><img src="img/general_images/facebook.svg" width="32" height="32" alt="Facebook"></a></li>
-        <li><a class="social_btn" href="#"><img src="img/general_images/vkontakte.svg" width="32" height="32" alt="Вконтакте"></a></li>
+        <li><a class="social_btn" href="#"><img src="img/general_images/twitter.svg" width="32" height="32"
+                                                alt="Twitter"></a></li>
+        <li><a class="social_btn" href="#"><img src="img/general_images/instagram.svg" width="32" height="32"
+                                                alt="Instagram"></a></li>
+        <li><a class="social_btn" href="#"><img src="img/general_images/facebook.svg" width="32" height="32"
+                                                alt="Facebook"></a></li>
+        <li><a class="social_btn" href="#"><img src="img/general_images/vkontakte.svg" width="32" height="32"
+                                                alt="Вконтакте"></a></li>
     </ul>
     
     <ul class="footer-menu">
@@ -179,10 +217,11 @@
         <li><a href="#">Экологические стандарты</a></li>
     </ul>
     
-    <ul class="academy">
-        <li><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/general_images/logo_htmlacademy.png" width="108" height="39" alt="HTML Academy"></a></li>
-        <li>Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> © 2019</li>
-    </ul>
+    
+    <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/general_images/logo-htmlacademy.svg" width="108"
+                                                            height="36" alt="HTML Academy"></a>
+    <p>Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> © 2019</p>
+
 
 </footer>
 
