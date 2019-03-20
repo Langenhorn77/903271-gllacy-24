@@ -1868,4 +1868,5 @@ select::-ms-expand {
 }
 .page_left {
     transform: rotate(180deg);
+    opacity: 0.2;
 }
