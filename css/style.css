@@ -329,8 +329,9 @@ body {
     padding-bottom: 0;
 }
 
+
 .site_movement input:focus {
-    border: 2px solid rgb(46, 136, 228);
+    border: 2px solid rgba(143, 189, 236, 0.5);
     outline: none;
     padding-left: 12px;
     padding-top: 0;
@@ -905,13 +906,13 @@ body {
 }
 
 .popup_window input:focus {
-    border: 2px solid rgba(46, 136, 228, 0.5);
+    border: 2px solid rgba(143, 189, 236, 0.5);
     outline: none;
     padding-left: 12px;
 }
 
 .popup_window textarea:focus {
-    border: 2px solid rgba(46, 136, 228, 0.5);
+    border: 2px solid rgba(143, 189, 236, 0.5);
     outline: none;
     padding-left: 12px;
     padding-top: 7px;
@@ -1411,7 +1412,7 @@ body {
 }
 
 .sign_for_spam input:focus {
-    border: rgb(46, 136, 228) 2px solid;
+    border: rgba(143, 189, 236, 0.5) 2px solid;
     outline: none;
     padding-left: 11px;
     padding-top: 0;
