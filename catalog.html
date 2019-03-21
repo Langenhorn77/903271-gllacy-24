@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Каталог "Сливочное мороженое"</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-min.css">
 
 </head>
 <body>
@@ -75,17 +75,21 @@
                             <a class="button btn_cart full" href="#"><img src="img/catalog_images/basket-red.svg"
                                                                           width="21"
                                                                           height="20" alt="корзина">2 товара</a>
-                            <div class="basket_full">
+                            <form class="basket_full" action="https://echo.htmlacademy.ru" method="post">
                                 <ul class="basket_content">
                                     <li>
-                                        <img src="img/catalog_images/ice1_small.png" height="33" width="33" alt="иконка товара"/>
+                                        <img src="img/catalog_images/ice1_small.png" height="33" width="33"
+                                             alt="иконка товара"/>
+                                        <button class="delete" type="button">Удалить товар</button>
                                         <p class="order_name">Пломбир с апельсиновым джемом</p>
                                         <p class="order_weight">1,5 кг х 200 руб.</p>
                                         <p class="order_price">300 руб.</p>
                                     </li>
                                     <li>
-                                        <img src="img/catalog_images/ice2_small.png" height="33" width="33" alt="иконка товара"/>
-                                        <p class="order_name">Клубничный пломбир с присыпкой<br>
+                                        <img src="img/catalog_images/ice2_small.png" height="33" width="33"
+                                             alt="иконка товара"/>
+                                        <button class="delete" type="button">Удалить товар</button>
+                                        <p class="order_name">Клубничный пломбир с присыпкой
                                             из белого шоколада</p>
                                         <p class="order_weight">1,5 кг х 300 руб.</p>
                                         <p class="order_price">450 руб.</p>
@@ -93,9 +97,9 @@
                                 </ul>
                                 <div class="basket_control">
                                     <p class="sum">Итого: 750 руб.</p>
-                                    <button class="button_large btn_apply">Оформить заказ</button>
+                                    <button class="button_large btn_apply" type="submit">Оформить заказ</button>
                                 </div>
-                            </div>
+                            </form>
                         </li>
                     </ul>
                 </div>
@@ -104,9 +108,7 @@
             <div class="header_bottom">
                 <ul class="breadcrumbs">
                     <li><a href="index.html">Главная</a></li>
-                    <li><p>»</p></li>
                     <li><a href="catalog.html">Каталог</a></li>
-                    <li><p>»</p></li>
                     <li class="breadcrumbs_current">Сливочное</li>
                 </ul>
                 
@@ -143,17 +145,13 @@
                         <legend>Цена: 100 руб. – 500 руб.</legend>
                         <div class="filter_range">
                             <div class="range_controls">
-                
+                                
                                 <div class="scale">
                                     <div class="bar"></div>
                                 </div>
                                 <div class="toggle toggle_min"></div>
                                 <div class="toggle toggle_max"></div>
                             </div>
-                            <!--<div class="price_controls">
-                                <label class="min_price">от <input name="min_price" type="text" value="0"></label>
-                                <label class="max_price">до <input name="max_price" type="text" value="15000"></label>
-                            </div>-->
                         </div>
                     </fieldset>
                     
@@ -292,7 +290,7 @@
                     <div class="card_content">
                         <img src="img/catalog_images/red_bilberry.png" width="267" height="267" alt="Брусника">
                         <p class="price">325₽ <sub>/кг</sub></p>
-                        <a href=""><h3 class="icecream_desc">Сливочное с брусничным<br>
+                        <a href=""><h3 class="icecream_desc">Сливочное с брусничным
                             джемом</h3></a>
                     </div>
                     <div class="card_hover">
@@ -337,7 +335,7 @@
                     <div class="card_content">
                         <img src="img/catalog_images/vanilla.png" width="267" height="267" alt="Ваниль">
                         <p class="price">440₽ <sub>/кг</sub></p>
-                        <a href="#"><h3 class="icecream_desc">Сливочно-ванильное с<br>
+                        <a href="#"><h3 class="icecream_desc">Сливочно-ванильное с
                             кусочками шоколада</h3></a>
                     </div>
                     <div class="card_hover">
@@ -381,13 +379,23 @@
             
             
             <ul class="pages">
-                <li class="page"><a class="page_left" href="#" aria-label="предыдущая страница"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><path class="arrow_next" fill="#C1C6CE" d="M7.237 5.642L1.73.132c-.2-.197-.52-.197-.717 0s-.198.52 0 .717L6.163 6l-5.15 5.15c-.2.198-.2.52 0 .717.098.1.228.148.357.148.13 0 .26-.05.358-.148l5.51-5.51c.198-.197.198-.517 0-.715z"/></svg></a></li>
+                <li class="page"><a class="page_left" href="#" aria-label="предыдущая страница">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12">
+                        <path class="arrow_next" fill="#C1C6CE"
+                              d="M7.237 5.642L1.73.132c-.2-.197-.52-.197-.717 0s-.198.52 0 .717L6.163 6l-5.15 5.15c-.2.198-.2.52 0 .717.098.1.228.148.357.148.13 0 .26-.05.358-.148l5.51-5.51c.198-.197.198-.517 0-.715z"/>
+                    </svg>
+                </a></li>
                 <li class="page_current"><a href="#">1</a></li>
                 <li class="page"><a href="#">2</a></li>
                 <li class="page"><a href="#">3</a></li>
                 <li class="page"><a href="#">4</a></li>
                 <li class="page"><a href="#">5</a></li>
-                <li class="page"><a class="page_right" href="#" aria-label="следующая страница"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><path class="arrow_next" fill="#C1C6CE" d="M7.237 5.642L1.73.132c-.2-.197-.52-.197-.717 0s-.198.52 0 .717L6.163 6l-5.15 5.15c-.2.198-.2.52 0 .717.098.1.228.148.357.148.13 0 .26-.05.358-.148l5.51-5.51c.198-.197.198-.517 0-.715z"/></svg></a></li>
+                <li class="page"><a class="page_right" href="#" aria-label="следующая страница">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12">
+                        <path class="arrow_next" fill="#C1C6CE"
+                              d="M7.237 5.642L1.73.132c-.2-.197-.52-.197-.717 0s-.198.52 0 .717L6.163 6l-5.15 5.15c-.2.198-.2.52 0 .717.098.1.228.148.357.148.13 0 .26-.05.358-.148l5.51-5.51c.198-.197.198-.517 0-.715z"/>
+                    </svg>
+                </a></li>
             </ul>
         </section>
     
@@ -481,5 +489,6 @@
     </footer>
 </div>
 
+<script src="js/script-min.js"></script>
 </body>
 </html>
