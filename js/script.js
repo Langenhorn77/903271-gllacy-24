@@ -26,7 +26,8 @@ popup.addEventListener("submit", function (evt) {
     if (!user_name.value) {
         evt.preventDefault();
         console.log("Заполните все поля!");
-        popup.classList.add("popup_wrong");;
+        popup.classList.add("popup_wrong");
+        ;
     } else if (!user_mail.value) {
         evt.preventDefault();
         console.log("Заполните все поля!");

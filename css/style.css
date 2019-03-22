@@ -157,7 +157,6 @@ body {
     text-decoration: underline;
 
 
-
     height: 32px;
     padding-left: 13px;
     padding-right: 13px;
@@ -1755,6 +1754,7 @@ body {
 .current_menu {
     background-color: rgb(208, 112, 88);
 }
+
 .current_menu a {
     color: #ffffff;
 }
@@ -2243,7 +2243,8 @@ body {
     color: rgba(255, 255, 255, 0.3);
 
 }
-.icecream_item .for_underline:hover, .icecream_item .for_underline:active{
+
+.icecream_item .for_underline:hover, .icecream_item .for_underline:active {
     color: rgba(255, 188, 158, 0.3);
 }
 
