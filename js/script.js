@@ -5,6 +5,7 @@ var close = popup.querySelector(".popup_close");
 var user_name = popup.querySelector("[name=your_name]");
 var user_mail = popup.querySelector("[name=your_email]");
 
+
 write.addEventListener("click", function (evt) {
     evt.preventDefault();
     popup.classList.add("popup_show");
