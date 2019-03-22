@@ -19,24 +19,24 @@
                                       alt="Логотип Gllacy"></a>
                     
                     <ul class="site_navigation">
-                        <li><a href="#" class="main current">Каталог</a>
+                        <li class="main"><a href="#" class="current">Каталог</a>
                             <ul class="main_menu">
-                                <li><a href="#">Новинки</a></li>
-                                <li><a href="#">Сливочное</a></li>
-                                <li><a href="#">Щербеты</a></li>
-                                <li><a href="#">Фруктовый лед</a></li>
-                                <li><a href="#">Мелорин</a></li>
+                                <li class="main_menu_item"><a href="#">Новинки</a></li>
+                                <li class="main_menu_item current_menu"><a href="#">Сливочное</a></li>
+                                <li class="main_menu_item"><a href="#">Щербеты</a></li>
+                                <li class="main_menu_item"><a href="#">Фруктовый лед</a></li>
+                                <li class="main_menu_item"><a href="#">Мелорин</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Доставка и оплата</a></li>
-                        <li><a href="#">О Компании</a></li>
+                        <li><a href="#" class="for_underline"><span>Доставка и оплата</span></a></li>
+                        <li><a href="#" class="for_underline"><span>О Компании</span></a></li>
                     </ul>
                 </div>
                 
                 
                 <div class="main_navigation_right">
                     <ul class="site_movement current_movement">
-                        <li>
+                        <li class="site_movement_search">
                             <a class="button btn_search" href="#">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                      width="17" height="17" viewBox="0 0 17 17">
@@ -48,7 +48,7 @@
                                 <input id="searching" type="text" name="searching" placeholder="Что ищем?"/>
                             </form>
                         </li>
-                        <li>
+                        <li class="site_movement_login">
                             <a class="button btn_login" href="#">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                      width="21" height="19" viewBox="0 0 21 19">
@@ -73,7 +73,7 @@
                                 </div>
                             </form>
                         </li>
-                        <li>
+                        <li class="site_movement_basket">
                             <a class="button btn_cart full" href="#"><img src="img/catalog_images/basket-red.svg"
                                                                           width="21"
                                                                           height="20" alt="корзина">2 товара</a>
@@ -109,8 +109,8 @@
             
             <div class="header_bottom">
                 <ul class="breadcrumbs">
-                    <li><a href="index.html">Главная</a></li>
-                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="index.html" class="breadcrumb_item">Главная</a></li>
+                    <li><a href="catalog.html" class="breadcrumb_item">Каталог</a></li>
                     <li class="breadcrumbs_current">Сливочное</li>
                 </ul>
                 
@@ -247,7 +247,7 @@
                     <div class="card_content">
                         <img src="img/index_images/orange.png" width="267" height="267" alt="Апельсин">
                         <p class="price">310₽ <sub>/кг</sub></p>
-                        <a href="#"><h3 class="icecream_desc">Сливочное с апельсиновым джемом и цитрусовой стружкой</h3>
+                        <a href="#" class="for_underline"><h3 class="icecream_desc">Сливочное с апельсиновым джемом и цитрусовой стружкой</h3>
                         </a>
                     </div>
                     <div class="card_hover">
@@ -259,7 +259,7 @@
                     <div class="card_content">
                         <img src="img/index_images/coffee.png" width="267" height="267" alt="Кофе">
                         <p class="price">380₽ <sub>/кг</sub></p>
-                        <a href="#"><h3 class="icecream_desc">Сливочно-кофейное с кусочками шоколада</h3></a></div>
+                        <a href="#" class="for_underline"><h3 class="icecream_desc">Сливочно-кофейное с кусочками шоколада</h3></a></div>
                     <div class="card_hover">
                         <a href="#" class="button_small btn_fast_view">Быстрый просмотр</a>
                     </div>
@@ -269,7 +269,7 @@
                     <div class="card_content">
                         <img src="img/index_images/strawberry.png" width="267" height="267" alt="Клубника">
                         <p class="price">355₽ <sub>/кг</sub></p>
-                        <a href="#"><h3 class="icecream_desc">Сливочно-клубничное с присыпкой из белого шоколада</h3>
+                        <a href="#" class="for_underline"><h3 class="icecream_desc">Сливочно-клубничное с присыпкой из белого шоколада</h3>
                         </a>
                     </div>
                     <div class="card_hover">
@@ -281,7 +281,7 @@
                     <div class="card_content">
                         <img src="img/index_images/creme_brulee.png" width="267" height="267" alt="Крем-брюле">
                         <p class="price">415₽ <sub>/кг</sub></p>
-                        <a href="#"><h3 class="icecream_desc">Сливочное крем-брюле с карамельной подливкой</h3></a>
+                        <a href="#" class="for_underline"><h3 class="icecream_desc">Сливочное крем-брюле с карамельной подливкой</h3></a>
                     </div>
                     <div class="card_hover">
                         <a href="#" class="button_small btn_fast_view">Быстрый просмотр</a>
@@ -292,7 +292,7 @@
                     <div class="card_content">
                         <img src="img/catalog_images/red_bilberry.png" width="267" height="267" alt="Брусника">
                         <p class="price">325₽ <sub>/кг</sub></p>
-                        <a href=""><h3 class="icecream_desc">Сливочное с брусничным
+                        <a href="#" class="for_underline"><h3 class="icecream_desc">Сливочное с брусничным
                             джемом</h3></a>
                     </div>
                     <div class="card_hover">
@@ -304,7 +304,7 @@
                     <div class="card_content">
                         <img src="img/catalog_images/bilberry.png" width="267" height="267" alt="Черника">
                         <p class="price">410₽ <sub>/кг</sub></p>
-                        <a href=""><h3 class="icecream_desc">Сливочно-черничное с цельными ягодами черники </h3></a>
+                        <a href="#" class="for_underline"><h3 class="icecream_desc">Сливочно-черничное с цельными ягодами черники </h3></a>
                     </div>
                     <div class="card_hover">
                         <a href="#" class="button_small btn_fast_view">Быстрый просмотр</a>
@@ -315,7 +315,7 @@
                     <div class="card_content">
                         <img src="img/catalog_images/lemon.png" width="267" height="267" alt="Лимон">
                         <p class="price">375₽ <sub>/кг</sub></p>
-                        <a href="#"><h3 class="icecream_desc">Сливочно-лимонное с карамельной присыпкой</h3></a>
+                        <a href="#" class="for_underline"><h3 class="icecream_desc">Сливочно-лимонное с карамельной присыпкой</h3></a>
                     </div>
                     <div class="card_hover">
                         <a href="#" class="button_small btn_fast_view">Быстрый просмотр</a>
@@ -326,7 +326,7 @@
                     <div class="card_content">
                         <img src="img/catalog_images/chocolate.png" width="267" height="267" alt="Шоколад">
                         <p class="price">320₽ <sub>/кг</sub></p>
-                        <a href="#"><h3 class="icecream_desc">Сливочное с шоколадной стружкой</h3></a>
+                        <a href="#" class="for_underline"><h3 class="icecream_desc">Сливочное с шоколадной стружкой</h3></a>
                     </div>
                     <div class="card_hover">
                         <a href="#" class="button_small btn_fast_view">Быстрый просмотр</a>
@@ -337,7 +337,7 @@
                     <div class="card_content">
                         <img src="img/catalog_images/vanilla.png" width="267" height="267" alt="Ваниль">
                         <p class="price">440₽ <sub>/кг</sub></p>
-                        <a href="#"><h3 class="icecream_desc">Сливочно-ванильное с
+                        <a href="#" class="for_underline"><h3 class="icecream_desc">Сливочно-ванильное с
                             кусочками шоколада</h3></a>
                     </div>
                     <div class="card_hover">
@@ -349,7 +349,7 @@
                     <div class="card_content">
                         <img src="img/catalog_images/mentol.png" width="267" height="267" alt="Ментола">
                         <p class="price">435₽ <sub>/кг</sub></p>
-                        <a href="#"><h3 class="icecream_desc">Сливочноe с ментоловым сиропом</h3></a>
+                        <a href="#" class="for_underline"><h3 class="icecream_desc">Сливочноe с ментоловым сиропом</h3></a>
                     </div>
                     <div class="card_hover">
                         <a href="#" class="button_small btn_fast_view">Быстрый просмотр</a>
@@ -360,7 +360,7 @@
                     <div class="card_content">
                         <img src="img/catalog_images/black_chocolate.png" width="267" height="267" alt="Черный шоколад">
                         <p class="price">355₽ <sub>/кг</sub></p>
-                        <a href="#"><h3 class="icecream_desc">Сливочное с кусочками черного шоколада</h3></a>
+                        <a href="#" class="for_underline"><h3 class="icecream_desc">Сливочное с кусочками черного шоколада</h3></a>
                     </div>
                     <div class="card_hover">
                         <a href="#" class="button_small btn_fast_view">Быстрый просмотр</a>
@@ -371,7 +371,7 @@
                     <div class="card_content">
                         <img src="img/catalog_images/syrup.png" width="267" height="267" alt="Сироп">
                         <p class="price">420₽ <sub>/кг</sub></p>
-                        <a href="#"><h3 class="icecream_desc">Сливочное с мятным сиропом</h3></a>
+                        <a href="#" class="for_underline"><h3 class="icecream_desc">Сливочное с мятным сиропом</h3></a>
                     </div>
                     <div class="card_hover">
                         <a href="#" class="button_small btn_fast_view">Быстрый просмотр</a>
@@ -407,7 +407,7 @@
         
         <div class="footer_main footer_catalog">
             <ul class="social">
-                <li><a class="social_btn" href="#">
+                <li><a class="social_btn" href="#" aria-label="Twitter">
                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                          x="0px" y="0px" width="32px"
                          height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
@@ -424,7 +424,7 @@
 </g>
 </svg>
                 </a></li>
-                <li><a class="social_btn" href="#">
+                <li><a class="social_btn" href="#" aria-label="Instagram">
                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                          x="0px" y="0px"
                          width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32"
@@ -441,7 +441,7 @@
 </g>
 </svg>
                 </a></li>
-                <li><a class="social_btn" href="#">
+                <li><a class="social_btn" href="#" aria-label="Facebook">
                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                          x="0px" y="0px"
                          width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32"
@@ -450,7 +450,7 @@
 	v3.444h3.021v3.445h-3.021v8.61h-3.021v-8.61H11v-3.445h3.021V9.455c0-1.902,1.353-3.445,3.021-3.445h3.021V9.455z"/>
 </svg>
                 </a></li>
-                <li><a class="social_btn" href="#">
+                <li><a class="social_btn" href="#" aria-label="Вконтакте">
                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                          x="0px" y="0px"
                          width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32"
