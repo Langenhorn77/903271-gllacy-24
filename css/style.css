@@ -1897,6 +1897,7 @@ body {
     -ms-flex-pack: justify;
     justify-content: space-between;
     height: 60px;
+    width: 861px;
 }
 
 
@@ -1912,7 +1913,6 @@ body {
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
-    margin-top: -40px;
     margin-left: 15px;
 }
 
@@ -1938,10 +1938,11 @@ body {
     height: 37px;
     margin: 0;
     padding-right: 20px;
-    padding-left: 13px;
+    padding-left: 14px;
     position: relative;
 
     background-color: rgba(255, 255, 255, 0.2);
+    border: none;
     border-radius: 22px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -1960,15 +1961,17 @@ body {
     color: #323232;
 }
 
-.for_select {
+.for_select legend {
     position: relative;
 }
 
-.for_select::after {
+
+
+.for_select legend::after {
     content: url("../img/catalog_images/icon-down-dir.svg");
     position: absolute;
-    top: 29px;
-    left: 179px;
+    top: 32px;
+    left: 155px;
     z-index: 5;
 }
 
@@ -1976,10 +1979,13 @@ body {
     color: #323232;
 }
 
-.for_select:hover::after {
+.for_select legend:hover::after {
     content: url("../img/catalog_images/icon-down-dir_hover.svg");
 }
 
+.for_select select:hover .for_select legend::after {
+    content: url("../img/catalog_images/icon-down-dir_hover.svg");
+}
 
 /*range*/
 
