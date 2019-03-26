@@ -1555,6 +1555,7 @@ body {
     justify-content: flex-end;
     position: relative;
     background: url("../img/index_images/map.png") no-repeat;
+    background-color: #ede6c9;
     margin-bottom: 5px;
 }
 
@@ -1967,25 +1968,18 @@ body {
 
 
 
-.for_select legend::after {
-    content: url("../img/catalog_images/icon-down-dir.svg");
-    position: absolute;
-    top: 32px;
-    left: 155px;
-    z-index: 5;
+.for_select select {
+    background-image: url("../img/catalog_images/icon-down-dir.svg");
+    background-repeat: no-repeat;
+    background-position: 92% center;
+
 }
 
 .for_select select:hover {
     color: #323232;
+    background-image: url("../img/catalog_images/icon-down-dir_hover.svg");
 }
 
-.for_select legend:hover::after {
-    content: url("../img/catalog_images/icon-down-dir_hover.svg");
-}
-
-.for_select select:hover .for_select legend::after {
-    content: url("../img/catalog_images/icon-down-dir_hover.svg");
-}
 
 /*range*/
 
